@@ -1,7 +1,7 @@
 {
   "build": { "dockerfile": "Dockerfile" },
 
-  "postCreateCommand": "npm install -g @angular/cli && cd /workspaces/awd-project-server/mobile-post-office && npm install && ng serve --open",
+  "postCreateCommand": "npm install -g @angular/cli && cd /workspaces/awd-project-server/mobile-post-office && npm install",
 
   "customizations": {
     "vscode": {
